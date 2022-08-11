@@ -1,3 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:serif;
+}
+
 body {
-    background-color: aquamarine;
+    position: relative;
+    background-color: teal;
+}
+
+header {
+    background-color: gold;
+    border-top: auto;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: gold;
+}
+
+#contactinfo {
+    margin-left: 895px;
+}
+
+#section {
+    border-color: black;
+    border-radius: 20px;
+}
+
+input {
+    margin-left: 855px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+button {
+    margin-left: 925px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: teal;
+}
+
+img {
+    margin-left: 540px;
+    width: 800px;
+    height: 300px;
+}
+
+#placeholder {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: -21px;
+    padding: 10px;
+}
+
+#footerwrap {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background: gold;
+}
+
+#cr {
+    margin-left: 840px;
 }
